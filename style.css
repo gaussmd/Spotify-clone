@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav{
+    font-family: 'Ubuntu' ,'sans-sarif';
+}
+nav ul {
+   display:flex;
+   align-items: center;
+   list-style-type: none;
+   height: 75px;
+   background-color: black ;
+   color:white;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img {
+    width: 60px;
+    padding: 0 8px;
+}
+.brand {
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: rgb(40, 5, 215);
+    color: rgb(244, 208, 208);
+    font-family: 'Varela-round', 'sans-sarif';
+    display: flex;
+    margin: 22px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url("new.jpeg");
+
+}
+.songItemcontainer {
+    margin-top: 80px;
+    background-color: rgb(243, 60, 24);
+    border-radius: 30px;
+}
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.icons{
+    margin: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem {
+    height: 40px;
+    display: flex;
+    background-color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.songItem img {
+    width: 42px;
+    margin: 0 23px;
+    border-radius: 55px;
+}
+
+.timestamp {
+    margin: 0 13px;
+}
+.timestamp ion-icon {
+    cursor: pointer;
+}
+.songInfo {
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
